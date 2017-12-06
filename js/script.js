@@ -3,7 +3,6 @@
  //Start button for starting the count/game
  function startGame(){
  var number = document.getElementById("given_num").value;
- //document.getElementById("test").innerHTML = number;
  var count = 0;
  interval = setInterval(function () {
 	count++;

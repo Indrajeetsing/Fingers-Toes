@@ -1,3 +1,4 @@
+/*Container Div*/
 div.container {
     width: 50%;
     border: 1px solid gray;
@@ -6,7 +7,7 @@ div.container {
     margin: auto;
 	background-color: grey;
 }
-
+/*Input Field*/
 #given_num {
     width: 47%;
     box-sizing: border-box;
@@ -20,7 +21,7 @@ div.container {
     margin: 6px 0px 0px 0px;
 	float: left;
 }
-
+/*Counter*/
 #test{
 	color: white;
     text-align: center;
@@ -28,15 +29,15 @@ div.container {
     margin: 10px 20px 0px 0px;
     font-weight: 700;
 }
-
+/*Fingers and Toes boxes*/
 .box{
-	width: 47%;
+	width: 45%;
     float: left;
     margin: 7px;
     text-align: center;
 	
 }
-
+/*Buttons*/
 button {
     box-sizing: content-box;
     color: inherit;
