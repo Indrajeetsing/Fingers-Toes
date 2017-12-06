@@ -4,15 +4,21 @@
 		<meta charset="UTF-8">
 		<title>Fingers and Toes</title>
 	</head>
+	<script type="text/javascript" src="js/script.js"></script>
 	<body>
 		<div class="container">
-			<input type="number" value="number" placeholder="Enter a number" >
-			<div class="box">
-				<p>Fingers</p>
-				<p>Toes</p>
-			</div>
-			<button value="submit">Reset</button>
-			<button value="submit">Restart</button>
+			<input id="given_num" type="number" placeholder="Enter a number" >
+			<button value="submit" onclick ="startGame();">Start</button>
+			<div id="test"><span>0</span></div>
+			<p><div class="box" id="box1">
+					<p>Finger</p>
+				</div>
+				<div class="box" id="box2">
+					<p>Toes</p>
+				</div>
+			</p>
+			<button value="submit" onclick ="resetGame()">Reset</button>
+			<button value="submit" onclick ="restartGame()">Restart</button>
 		</div>
 	</body>
 </html>
