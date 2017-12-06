@@ -12,14 +12,14 @@
 		document.getElementById("box1").style.backgroundColor = 'red';
 	}
 	else{
-		document.getElementById("box1").style.backgroundColor = 'white';
+		document.getElementById("box1").style.backgroundColor = 'grey';
 	}
 	if(count % 5 ==0)
 	{
 		document.getElementById("box2").style.backgroundColor = 'red';
 	}
 	else{
-		document.getElementById("box2").style.backgroundColor = 'white';
+		document.getElementById("box2").style.backgroundColor = 'grey';
 	}
 	
 	if (count >= number)
@@ -32,15 +32,15 @@ function resetGame(){
 	clearInterval(interval);
 	document.getElementById("given_num").value = "";
 	document.getElementById("test").innerHTML = 0;
-	document.getElementById("box1").style.backgroundColor = 'white';
-	document.getElementById("box2").style.backgroundColor = 'white';
+	document.getElementById("box1").style.backgroundColor = 'grey';
+	document.getElementById("box2").style.backgroundColor = 'grey';
 }
 
 ////Restart button for restarting the count/game
 function restartGame(){
 	clearInterval(interval);
 	document.getElementById("test").innerHTML = 0;
-	document.getElementById("box1").style.backgroundColor = 'white';
-	document.getElementById("box2").style.backgroundColor = 'white';
+	document.getElementById("box1").style.backgroundColor = 'grey';
+	document.getElementById("box2").style.backgroundColor = 'grey';
 	startGame();
 }
