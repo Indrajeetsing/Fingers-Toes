@@ -4,6 +4,7 @@
  function startGame(){
  var number = document.getElementById("given_num").value;
  var count = 0;
+if (number){
  interval = setInterval(function () {
 	count++;
 	document.getElementById("test").innerHTML = count;
@@ -24,6 +25,7 @@
 	if (count >= number)
 	{clearInterval(interval);}
 	}, 1000);
+}
 }
 
 //Reset button for reseting the count/game
