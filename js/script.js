@@ -5,7 +5,7 @@ var check_flag = true;
  function startGame(){
  var number = document.getElementById("given_num").value;
  var count = 0;
-if (number && check_flag){
+if (number>0 && check_flag){
 	check_flag = false;
  interval = setInterval(function () {
 	count++;
