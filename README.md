@@ -1,5 +1,5 @@
-# Code_Assign_Axxess
-Coding assignment
+# Fingers-Toes Game
+https://rawgit.com/Indrajeetsing/Fingers-Toes/master/index.html#
 Fingers & Toes:
  Create a page that will have the following:
 1.     An input field that will take a number
