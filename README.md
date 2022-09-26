@@ -1,5 +1,5 @@
 # Fingers-Toes Game
-https://rawgit.com/Indrajeetsing/Fingers-Toes/master/index.html#
+https://raw.githack.com/Indrajeetsing/Fingers-Toes/master/index.html#
 
 Fingers & Toes:
  Create a page that will have the following:
